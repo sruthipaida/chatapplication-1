@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.min.js" ></script>
+<script type="text/javascript" src="chat.js"></script>
+<title>chat page</title>
+</head>
+<body>
+<h1>Welcome to chat </h1>
+<input type="text" name="cemail" id="cemail" value="" readonly=""></input>
+<form class="cform" method="post" action="/chat" id="cform">
+<label>Past Messages</label><BR>
+<textarea id="pmessage" name="pmessage" rows="10" cols="50" readonly></textarea><br><br><br>
+<label>send to:</label><input type="text" name="cemail1" id="cemail1" value=""></input><br><br>
+<label>Chat Box</label><br>
+<textarea id="cmessage" name="cmessage" rows="2" cols="50"></textarea><br>
+<input type="button" id="cbutton" value="SEND"></input>
+</form>
+</body>
+</html>
