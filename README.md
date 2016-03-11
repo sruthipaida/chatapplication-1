@@ -1,2 +1,0 @@
-# chat-application
-live chatting
