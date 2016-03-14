@@ -1,4 +1,4 @@
 # chatapplication
 chat application using JQuery,NodeJS and MongoDB
-this is the application developed to easier the chat between two people
+this is the application developed to easier the chat between two people so that it creates a two way communication
 
